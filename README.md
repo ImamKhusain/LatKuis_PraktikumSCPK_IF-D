@@ -40,3 +40,13 @@ python preprocessing.py
 ```
 
 Setelah selesai, file Air_Traffic_Passenger_Statistics_Cleaned.csv akan muncul di folder yang sama.
+
+# Cara Run Program Python
+```bash
+#Langkah 1
+PS D:\Kuliah semester 4\Praktikum SCPK> cd "D:\Kuliah semester 4\Praktikum SCPK\LatKuis"
+#Langkah 2
+PS D:\Kuliah semester 4\Praktikum SCPK\LatKuis> ls
+#Langkah 3
+PS D:\Kuliah semester 4\Praktikum SCPK\LatKuis> streamlit run "D:\Kuliah semester 4\Praktikum SCPK\LatKuis\latkuis.py"
+```
