@@ -1,4 +1,4 @@
-# LatKuis_Praktikum-SCPK-IF-D-
+# LatKuis_PraktikumSCPK_IF-D
 
 Untuk mendapatkan file terbaru dalam bentuk CSV dari dataset yang belum dibersihkan menjadi dataset yang telah dibersihkan, ikuti langkah-langkah berikut:
 
