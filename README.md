@@ -14,6 +14,7 @@ import pandas as pd
 # Baca dataset asli (belum dibersihkan)
 raw_data_path = "Air_Traffic_Passenger_Statistics.csv"
 data = pd.read_csv(raw_data_path)
+
 2️⃣ Bersihkan Data (Preprocessing)
 python
 Copy
