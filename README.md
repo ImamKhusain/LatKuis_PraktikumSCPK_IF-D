@@ -14,24 +14,18 @@ data = pd.read_csv(raw_data_path)
 ```bash
 # Hapus baris dengan nilai NULL
 data_cleaned = data.dropna()
-```
 
 # Hapus data duplikat
-```bash
 data_cleaned = data_cleaned.drop_duplicates()
-```
 
 # Konversi kolom tertentu ke tipe data yang sesuai (jika diperlukan)
-```bash
 if 'Operating Airline IATA Code' in data_cleaned.columns:
     data_cleaned['Operating Airline IATA Code'] = data_cleaned['Operating Airline IATA Code'].astype(str)
 
 if 'Published Airline IATA Code' in data_cleaned.columns:
     data_cleaned['Published Airline IATA Code'] = data_cleaned['Published Airline IATA Code'].astype(str)
-```
 
 # Simpan dataset hasil preprocessing ke file CSV baru
-```bash
 cleaned_data_path = "Air_Traffic_Passenger_Statistics_Cleaned.csv"
 data_cleaned.to_csv(cleaned_data_path, index=False)
 
