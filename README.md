@@ -32,7 +32,7 @@ data_cleaned.to_csv(cleaned_data_path, index=False)
 print(f"✅ Dataset yang telah dibersihkan telah disimpan sebagai '{cleaned_data_path}'")
 ```
 
-3️⃣ Jalankan Kode Ini
+# 3️⃣ Jalankan Kode Ini
 Simpan kode di atas ke dalam file preprocessing.py
 Jalankan di terminal atau command prompt dengan perintah:
 ```bash
